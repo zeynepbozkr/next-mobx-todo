@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.button {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  background-color: #ccccff;
+
+  /* background-color: var(--background-color-light); */
+  border-radius: 8px;
+  margin-bottom: 16px;
+
+  box-shadow: var(--box-shadow);
+  font-weight: 500;
+
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.checkbox {
+}
+.list {
+  flex: 14;
+}
+
+.buttonEdit {
+  border: none;
+  background-color: transparent;
+  /* 
+  outline: none;
+  cursor: pointer; */
+}
+.buttonDelete {
+  border: none;
+  background-color: transparent;
+}
